@@ -1,0 +1,161 @@
+.body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.page1{
+    height: 100vh;
+    width: 100%;
+}
+.first{
+    height: 5%;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.137);
+    display: flex;
+    justify-content: space-around;
+}
+.first i{
+    font-weight: 900;
+}
+.first a{
+    text-decoration: none;
+    color: orange;
+}
+.second{
+    height: 8%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+#first-button{
+    height: 80%;
+    width: 40%;
+    
+}
+#second-button{
+    height: 80%;
+    width: 10%;
+    background-color: orangered;
+    color: white;
+    border: none;
+
+}
+
+.image{
+    height: 90%;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    
+
+}
+.none{
+    background-color: white;
+    color: black;
+    height: 40%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 5%;
+
+}
+.now{
+    background-color: orange;
+    color: white;
+    height: 40%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-top: 15%;
+}
+.now p{
+    font-weight: 900;
+
+}
+.flashing {
+    font-size: 2rem;
+    font-weight: bold;
+    animation: flash 1s infinite alternate;
+}
+
+@keyframes flash {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+
+
+
+  
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    
+    justify-content: space-around;
+    
+}
+.product-card {  
+   height: 60%;
+    background-color: #fff;
+    text-align: center;
+    margin-top: 15%;
+   
+  
+}
+
+  
+
+  
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+  
+.product-card h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+  
+.price-container {
+    margin: 10px 0;
+}
+  
+.price-container del {
+    color: red;
+    font-weight: bold;
+}
+  
+.price-container .discounted-price {
+    color: green;
+    font-weight: bold;
+ }
+  
+.add-to-cart {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+  
+ .add-to-cart:hover {
+    background-color: #0056b3;
+}
+  
