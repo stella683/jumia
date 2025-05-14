@@ -158,4 +158,31 @@
  .add-to-cart:hover {
     background-color: #0056b3;
 }
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.product-item {
+  flex: 1 1 calc(33.333% - 16px);
+  box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  .product-item {
+    flex: 1 1 calc(50% - 16px);
+  }
+}
+
+@media (max-width: 480px) {
+  .product-item {
+    flex: 1 1 100%;
+  }
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
   
